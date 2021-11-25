@@ -16,10 +16,6 @@ html, body {
     color: #000000 !important;
 }
 
-.navbar li a:hover {
-    color: #f91e10 !important;
-}
-
 .carousel-inner img {
     width: 100%;
     border-radius: 10px;
@@ -43,9 +39,7 @@ html, body {
     transform: scale(3);
 }
 
-li :hover {
-    transform: scale(1.1);
-}
+
 
 .card {
     width: 100%;
@@ -65,9 +59,32 @@ li :hover {
     color: #f91e10;
 cursor: pointer;
 }
-
-/*@media (max-width: 900px) {*/
-/*    .card{*/
-/*        width: 200%;*/
-/*    }*/
-/*}*/
+.fas{
+    color: blueviolet;
+    margin-top: 10px;
+}
+.nav-link{
+    margin-right:111px ;
+}
+.bt{
+    background:rgb(109, 255, 22);
+    margin-right: 30px;
+    width: 120px;
+}
+.bt:hover{
+    background: rgb(238, 24, 24);
+    margin-right: 30px;
+    border: none;
+    width: 120px;
+    transform: scale(1.4);
+}
+.footer{
+    background: rgba(0, 0, 0, 0.2);
+    width: 100%;
+    height: 150px;
+}
+.foot{
+    color: white;
+    padding-top: 50px;
+    margin-left: 100px;
+}
