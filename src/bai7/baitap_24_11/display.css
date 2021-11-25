@@ -1,0 +1,73 @@
+html, body {
+    width: 100%;
+    height: 100%;
+    background: rgb(65, 64, 64);
+}
+
+#logo {
+    height: 35px;
+}
+
+.navbar {
+    background-color: rgb(109, 255, 22) !important;
+}
+
+.navbar li a {
+    color: #000000 !important;
+}
+
+.navbar li a:hover {
+    color: #f91e10 !important;
+}
+
+.carousel-inner img {
+    width: 100%;
+    border-radius: 10px;
+    height: 100%;
+}
+
+.carousel-inner {
+    margin-top: 2%;
+    margin-left: 2%;
+    width: 96%;
+    border-radius: 20px;
+    border: 1px solid;
+    color: #f91e10 !important;
+}
+
+.carousel-control-next {
+    transform: scale(3);
+}
+
+.carousel-control-prev {
+    transform: scale(3);
+}
+
+li :hover {
+    transform: scale(1.1);
+}
+
+.card {
+    width: 100%;
+    margin-left: 100px;
+    cursor: pointer;
+
+}
+
+.btn:hover {
+    transform: scale(1.4);
+}
+.price{
+    color: #f91e10;
+}
+.card-title:hover {
+    transform: scale(1.2);
+    color: #f91e10;
+cursor: pointer;
+}
+
+/*@media (max-width: 900px) {*/
+/*    .card{*/
+/*        width: 200%;*/
+/*    }*/
+/*}*/

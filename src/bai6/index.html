@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bungee+Shade&display=swap" rel="stylesheet">
+    <style>
+body{
+    background: url("https://media.giphy.com/media/UNHplVba2fweBfkLHv/giphy.gif");
+    background-size: cover;
+}
+        * {
+            font-family: 'Bungee Shade', cursive;
+
+        }
+
+        .name {
+            color: rgba(0, 255, 255, 0.92);
+        }
+
+        .box {
+            width: 300px;
+            height: 300px;
+            overflow: hidden;
+            border-radius: 50%;
+            -webkit-box-shadow: 0px 1px 54px 8px rgba(33, 252, 91, 0.75);
+            -moz-box-shadow: 0px 1px 54px 8px rgba(33, 252, 91, 0.75);
+            box-shadow: 0px 1px 54px 8px rgba(33, 252, 91, 0.75);
+            transition: 0.9s;
+            animation-name: hinhAnh;
+            animation-duration: 15s;
+            animation-iteration-count: infinite;
+        }
+
+        .box img {
+            height: 300px;
+            transform: translate(-50%);
+            margin-left: 50%;
+
+        }
+
+        .text {
+            color: aqua;
+        }
+
+        /*.box:hover {*/
+        /*    transform: rotate3d(11, 11, 11, 45deg)scale(1.2);*/
+
+        /*}*/
+        @keyframes hinhAnh {
+            0% {
+                transform: rotateY(0deg)
+            }
+            10% {
+                transform: rotateY(30deg)
+            }
+           20% {
+                transform: rotateY(60deg)
+            }
+            30% {
+                transform: rotateY(90deg)
+            }
+            40% {
+                transform: rotateY(120deg)
+            }
+            50% {
+                transform: rotateY(150deg)
+            }
+        }
+    </style>
+</head>
+<body>
+<center>
+    <div class="box">
+        <img src="https://i.ytimg.com/vi/vSKvYJ9dSCQ/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLBR-TMixtS9ScyJG7yekxFdLZWlWw"
+             alt="">
+    </div>
+    <div class="text">
+        <h1 class="name">KHÔNG PHẢI LONG</h1>
+        <h1 class="name">ĐÂU ĐÓ Ở VIỆT NAM</h1>
+    </div>
+</center>
+</body>
+</html>
